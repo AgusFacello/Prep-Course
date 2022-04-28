@@ -89,6 +89,7 @@ function menosQueNoventa(num) {
   else {
     return false;
   }
+}
 
   function mayorQueCincuenta(num) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -99,6 +100,7 @@ function menosQueNoventa(num) {
     } else {
       return false;
     }
+  }
 
     function obtenerResto(x, y) {
       // Obten el resto de la división de "x" entre "y"
@@ -115,6 +117,7 @@ function menosQueNoventa(num) {
       } else {
         return false
       }
+    }
 
       function esImpar(num) {
         // Devuelve "true" si "num" es impar
@@ -125,6 +128,7 @@ function menosQueNoventa(num) {
         } else {
           return false
         }
+      }
 
         function elevarAlCuadrado(num) {
           // Devuelve el valor de "num" elevado al cuadrado
@@ -202,8 +206,7 @@ function menosQueNoventa(num) {
           // Retornar el area de un rectángulo teniendo su altura y ancho
           // Tu código:
           return (alto * ancho)
-
-        }
+         }
 
 
         function retornarPerimetro(lado) {
@@ -242,6 +245,7 @@ function menosQueNoventa(num) {
           }
           return "Dato incorrecto"
         }
+      
 
 
 

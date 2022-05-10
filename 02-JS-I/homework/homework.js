@@ -172,11 +172,13 @@ function menosQueNoventa(num) {
           //Si el número es positivo, devolver ---> "Es positivo"
           //Si el número es negativo, devolver ---> "Es negativo"
           //Si el número es 0, devuelve false
-          if (num > 0) {
+          if (numero > 0) {
             return "Es positivo"
-          } else if (num < 0) {
+          } 
+          else if (numero < 0) {
             return "Es negativo"
-          } else {
+          } 
+          else {
             return false
           }
         }
@@ -185,21 +187,22 @@ function menosQueNoventa(num) {
           // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
           // Ejemplo: "hello world" pasaría a ser "hello world!"
           // Tu código:
-          return ("hello world!")
+          var suma = str + "!"
+          return (suma)
         }
 
         function combinarNombres(nombre, apellido) {
           // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
           // Ejemplo: "Soy", "Henry" -> "Soy Henry"
           // Tu código:
-          return ("nombre" + "apellido")
+          return nombre + " " + apellido
         }
 
         function obtenerSaludo(nombre) {
           // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
           // "Martin" -> "Hola Martin!"
           // Tu código:
-          return "hola" + nombre + "!"
+          return "Hola " + nombre + "!"
         }
 
         function obtenerAreaRectangulo(alto, ancho) {
